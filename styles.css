@@ -1,0 +1,132 @@
+ body {
+     background-color: #cbcdcc;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+ h1 {
+    font-size: 3rem;
+ }
+
+ h3 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+ }
+
+ header > img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     block-size: 10rem;
+
+ }
+
+ nav ul {
+     list-style: none;
+     text-align: center;
+     background-color: rgb(68, 67, 67);
+     height: 3rem;
+     border-radius: 1.5rem;
+ }
+
+ nav li {
+     display: inline-block;
+     color: #EDEFEE;
+     margin: 0.5rem;
+     padding: 0.4rem;
+ }
+ nav li:hover{
+     color: #FFFFFF;
+     background-color: darkgray;
+     border-radius: 1rem;
+     transform: translateY(10%) translateX(10%);
+ }
+
+ a:link, a:visited {
+    color: #EDEFEE;
+    text-decoration: none;
+    cursor: auto;
+  }
+
+ section {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding-top: 1rem;
+
+ }
+.banner {
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    height: auto;
+    max-width: 100%;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 3rem;
+}
+.animated-text:hover {
+    transform: rotateX(360deg);
+    transition: 1.5s;
+
+}
+.banner-text {
+    color: darkred;
+    margin-left: 2%;
+    font-size: 1rem;
+    width: 40%;
+}
+.animated-text {
+    position: absolute;
+    top: 75%;
+}
+
+.product-card {
+    background-color: rgb(193, 250, 250);
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    max-width: 32%;
+    max-height: auto;
+}
+.card-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 1.5rem;
+
+
+}
+p{
+    padding: 1rem;
+    font-size: .8rem;
+}
+footer {
+    display: flex;
+     justify-content: space-between;
+     padding-top: 2rem;
+}
+
+footer > div {
+    flex: 0 1 auto;
+    max-width: 40%;
+    
+}
+
+.small-logo {
+    max-width: 10%;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.copyright {
+    margin-top: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: overline;
+}
